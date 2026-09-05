@@ -13,7 +13,6 @@
     ]
   },
   "autoCompactEnabled": true,
-  "autoCompactWindow": 200000,
   "hooks": {
     "SessionStart": [
       { "hooks": [ { "type": "command", "command": "bash \"$CLAUDE_PROJECT_DIR/.claude/hooks/session-start.sh\"" } ] }
