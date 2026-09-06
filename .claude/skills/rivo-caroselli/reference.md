@@ -17,7 +17,8 @@ Dalle ricerche sulla crescita organica: i caroselli-guida generano SALVATAGGI e 
 ## PARTE 3: la griglia di brand Rivolio (direzione visiva)
 
 Rivolio parla di rimborsi voli EU261: il tono e' rassicurante, competente, dalla parte del passeggero. La direzione visiva che scrivi nel campo `visual` di ogni slide deve stare dentro questa griglia:
-- **Colori:** verde profondo Rivolio come base (autorevole, calmo), accenti chiari/menta per i numeri e le parole chiave. Fondo pulito, testo ad alto contrasto e leggibile anche piccolo.
+- **Colori (fonte esatta: `docs/40-brand-rivolio.md`):** palette VERDE + GIALLO Rivolio. Fondo crema-verde chiaro `#EEF5DF` o verde `#4C8236`/`#2E6B4F`; titoli verde scuro `#2E6B4F` (su chiaro) o bianchi (su verde); numeri ed evidenze in GIALLO `#FFCC00` (colore primario). Alto contrasto, leggibile anche piccolo. NIENTE verde menta a caso, niente viola, niente gradienti pesanti.
+- **Logo:** su ogni slide va il logo VERO `assets/brand/marchio.png` (lente verde Rivolio) INCOLLATO in un angolo (vedi SKILL PASSO 3), non disegnato dall'AI. Come riferimento stilistico a GPT Image 2 usa `https://rivolio.it/marchio.png`.
 - **Font:** un display forte e pulito per i titoli, un sans leggibile per il corpo. Testo GRANDE: si legge su un telefono in un secondo.
 - **Elementi:** icone semplici (aereo, orologio del ritardo, euro, spunta), niente immagini caotiche. Coerenza slide dopo slide (stessa griglia, stessi margini): un carosello si riconosce come "di Rivolio".
 - **Numeri in evidenza:** "600 EUR", "3 ore", "4 passi" vanno resi grandi: sono l'aggancio.
