@@ -34,7 +34,7 @@ Valerio ha dato l'OK esplicito a passare a LIVE (30/8). Da ora il gate NON e' pi
 - Un contenuto in stato **"approvato"** (= Valerio lo ha approvato in dashboard) VA pubblicato sui suoi canali target, seguendo la procedura LIVE qui sotto ("Quando si passa a LIVE"). L'approvazione E' l'OK esplicito di Valerio (regola 1 rispettata): non serve nessun'altra parola, non serve toccare il prompt della routine.
 - Un contenuto in stato **"in_attesa"** o **"scartato"** NON esce MAI (Legge 1). Se la coda approvati e' vuota, non pubblichi nulla: resti a guardare le analitiche e chiudi.
 - Cosi' Valerio comanda la pubblicazione SOLO dalla dashboard (approva = pubblica), senza dover editare nessuna routine.
-- **Instagram in ATTESA di decisione account (vedi sezione canali):** finche' non e' deciso su quale account IG pubblichiamo, i CAROSELLI vanno in LIVE solo su **TikTok (@rivolio_ai)**; IG lo tieni "in attesa account" e lo segnali, non lo forzi.
+- **Instagram BRAND deciso (aggiornato 06/09):** Valerio ha creato l'account IG brand **Rivolio-AI (@rivolio_ai)** e lo ha collegato in Composio. Da ora i contenuti brand (Reels e CAROSELLI) vanno in LIVE su Instagram **@rivolio_ai**, non piu' "in attesa account". Su Composio ci sono DUE connessioni Instagram: usa SEMPRE quella BRAND chiamata **"Rivolio-AI" (@rivolio_ai)**, MAI quella personale "Valerio-alieri" (@valerio_alieri). Se devi scegliere la connessione, seleziona Rivolio-AI.
 
 ## Le altre leggi (non negoziabili)
 1. SOLO CONTENUTO APPROVATO. Pubblichi (quando sara' live) solo video/caroselli in stato "approvato" nella dashboard. Mai roba in attesa o scartata. L'approvazione arriva da Valerio.
@@ -47,8 +47,8 @@ API dashboard: BASE = https://mission-control-production-b349.up.railway.app/api
 
 ## I canali di pubblicazione: IBRIDO Composio + Zernio (deciso 29/8)
 La pubblicazione usa DUE strumenti insieme (scelta di Valerio: Zernio nel piano gratis copre 2 account, li ha usati per TikTok e YouTube; Instagram resta su Composio):
-- **Instagram Reels -> COMPOSIO** (l'account collegato in Composio e' @valerio_alieri Business). Tool via `COMPOSIO_SEARCH_TOOLS` / `COMPOSIO_MULTI_EXECUTE_TOOL`.
-  - **NODO APERTO (deciso di segnalare 30/8):** @valerio_alieri e' l'account PERSONALE del founder, mentre la strategia (docs/31) dice che il brand scala su un account **Rivolio** con Giulia volto fisso. Pubblicare i contenuti brand su @valerio_alieri fa a pugni con quella scelta. Finche' Valerio non crea l'account IG **@rivolio** (o non dice esplicitamente "va bene pubblicare su @valerio_alieri"), NON pubblichi contenuti brand su Instagram: li tieni "in attesa account" e lo scrivi in dashboard. TikTok (@rivolio_ai, gia' brand) invece va live regolarmente.
+- **Instagram Reels -> COMPOSIO** (account BRAND collegato in Composio: **Rivolio-AI, @rivolio_ai** Business). Tool via `COMPOSIO_SEARCH_TOOLS` / `COMPOSIO_MULTI_EXECUTE_TOOL`. ATTENZIONE: su Composio ci sono DUE connessioni Instagram, usa quella brand **Rivolio-AI (@rivolio_ai)**, MAI la personale "Valerio-alieri" (@valerio_alieri).
+  - **NODO CHIUSO (06/09):** l'account IG brand ora esiste ed e' **@rivolio_ai** (Rivolio-AI su Composio), in linea con la strategia (docs/31: brand Rivolio con Giulia volto fisso). Quindi i contenuti brand su Instagram vanno pubblicati su **@rivolio_ai**, non piu' sul personale. TikTok (@rivolio_ai) resta brand come prima.
 - **TikTok -> ZERNIO** (collegato in Zernio con login OAuth: Zernio ha gia' passato l'audit TikTok, niente app developer).
 - **YouTube Shorts -> ZERNIO** (collegato in Zernio).
 FORMATO PER PIATTAFORMA (deciso 30/8): un VIDEO va su tutti e 3 i canali (TikTok + Instagram Reels + YouTube Shorts). Un CAROSELLO (post a scorrimento di immagini) va SOLO su Instagram e TikTok: YouTube NON ha i caroselli (e' solo video), quindi per i caroselli YouTube si SALTA (non e' un errore, e' che il formato non esiste li'). Quindi: carosello -> IG + TikTok; video -> IG + TikTok + YouTube.

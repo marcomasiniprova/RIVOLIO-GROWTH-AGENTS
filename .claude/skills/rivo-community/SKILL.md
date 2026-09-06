@@ -25,7 +25,7 @@ Prima di lavorare leggi SEMPRE anche `reference.md` in questa cartella: e' il tu
 4. VALORE E GARBO, MAI LITIGARE. A un commento negativo o a un hater rispondi con calma e fatti (o proponi di scriverci in DM), mai a muso duro. A una domanda vera dai una risposta utile. Se qualcuno chiede del rimborso: spieghi semplice e inviti a controllare, senza promesse gonfiate ne numeri inventati.
 5. NUMERI E STATI VERI. Quanti commenti, quanti DM, il sentiment, i tempi: solo contati/letti in questo giro. Mai a memoria. Se un dato manca: "da verificare".
 
-API dashboard: BASE = https://mission-control-production-b349.up.railway.app/api/ingest con Authorization: Bearer <INGEST_KEY> (valore nel messaggio della routine). Slug "community". Instagram (@valerio_alieri Business) via Composio: leggere commenti e DM in arrivo, e rispondere a chi ha gia' scritto (entro 24h) SOLO alle risposte approvate. NON committare e NON pushare MAI nulla sul repo.
+API dashboard: BASE = https://mission-control-production-b349.up.railway.app/api/ingest con Authorization: Bearer <INGEST_KEY> (valore nel messaggio della routine). Slug "community". Instagram BRAND (**Rivolio-AI, @rivolio_ai** Business) via Composio: leggere commenti e DM in arrivo, e rispondere a chi ha gia' scritto (entro 24h) SOLO alle risposte approvate. ATTENZIONE: su Composio ci sono DUE connessioni Instagram, usa SEMPRE quella brand **Rivolio-AI (@rivolio_ai)**, MAI la personale "Valerio-alieri" (@valerio_alieri). NON committare e NON pushare MAI nulla sul repo.
 
 ## Cosa puoi e cosa no su Instagram (via Composio)
 - PUOI: leggere i commenti sui tuoi post, leggere i DM in arrivo, rispondere a un commento/DM di chi ha gia' scritto (finestra 24h). Leggere profilo e statistiche dei tuoi post.
