@@ -1,7 +1,13 @@
 # Branch dedicato alla sessione builder (Valerio + Claude)
 
-Questo branch `claude/svuotare-repository-k0k9w7` e' la **casa della sessione builder interattiva**
-(quella dove Valerio e' presente e scrive, con i 4 popup a ogni prompt).
+Questo branch `claude/MAIN-AI-AGENT` (ex `claude/svuotare-repository-k0k9w7`, rinominato da Valerio il 06/09)
+e' la **casa della sessione builder interattiva** (quella dove Valerio e' presente e scrive, con i 4 popup a ogni prompt).
+
+## MAPPA DEI BRANCH (pulita il 06/09 da Valerio) — NON confondersi mai piu'
+Il repo `RIVOLIO-GROWTH-AGENTS` ha SOLO 3 branch, ognuno con un ruolo preciso:
+- **`main`** = il TEAM: le skill degli agenti (`.claude/skills`), i docs, CLAUDE.md, motore-contenuti. Gli agenti fanno `git pull origin main` e leggono da qui. NON contiene la dashboard.
+- **`claude/rivo-growth-team`** = il CODICE DELLA DASHBOARD (`mission-control/`, Next.js su Railway). Da non toccare senza motivo.
+- **`claude/MAIN-AI-AGENT`** = QUESTO branch, dove vivo io (la sessione builder). Config personale + skill solo mie (es. copertura-prompt).
 
 ## Cosa cambia rispetto a `main`
 
