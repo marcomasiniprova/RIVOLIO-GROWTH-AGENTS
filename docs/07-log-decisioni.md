@@ -4,6 +4,14 @@ Ogni decisione importante va aggiunta qui, con data e motivazione. Dal più rece
 
 ---
 
+### 06 Set 2026 — Collaudo team contenuti dal vivo: 2 scoperte + correzione onesta
+- **SCOPERTA 1 (vera, esterna): Kie a 16 crediti.** Interrogato `GET https://api.kie.ai/api/v1/chat/credit` con la stessa `KIE_API_KEY` dell'ambiente → `data: 16.0`. La ricarica di Valerio (500-700) è finita su un ALTRO account/chiave. Caroselli ha letto il saldo e si è fermato PULITO (crediti_spesi=0, "stop credito insufficiente"): comportamento corretto, nessuno spreco. FIX deciso con Valerio: mettere nell'ambiente la `KIE_API_KEY` dell'account effettivamente ricaricato (nei settaggi, mai in chat/repo — Regola 8).
+- **SCOPERTA 2 (era un mio errore di metodo, NON un guasto): fire con testo extra = sessione ORFANA senza connettori.** `docs/21` riga 13 lo diceva già: un fire di collaudo SENZA testo extra parte dentro la sessione operativa (coi connettori Composio); un fire CON testo extra parte in una sessione orfana. Stanotte ho fatto tutti i fire manuali CON testo → giri orfani → Stratega `insight_ig=no` e sessioni operative ferme. Avevo diagnosticato erroneamente uno "scollegamento permanente": FALSO. Prova che il sistema è sano: la sessione "RIVO REDDIT operative" (session_01FydgQ9ZgE4Vtoj47N4VVyP) risulta `updated_at` 05/09 18:49, usata attivamente dal suo cron (fire nudi). **Regola di metodo d'ora in poi: per testare un ruolo nella sua sessione operativa coi connettori, fire_trigger SENZA testo extra.**
+- **IG brand su main (commit 01ee9a9):** Stratega, Community, Publisher puntati sull'account brand Rivolio-AI (@rivolio_ai) collegato in Composio, non più sul personale @valerio_alieri. Nota: su Composio ci sono due connessioni IG, usare sempre la brand.
+- **ig_email SPENTO** (trig_01HmBxBdk3YYAnqE7mCwdpKj enabled=false) finché Valerio non paga IONOS (19,52€) e Gmail/Workspace non torna verde. Causa email giù = Workspace sospeso dal reseller IONOS per pagamento fallito.
+- **Riattivati:** Stratega, Caroselli, Publisher, Video, Trend-scout. Restano spenti CRO, SEO, Community (Community serve un post live), e Capo/Guardiano (nessun trigger).
+- **Branch builder dedicato** `claude/svuotare-repository-k0k9w7`: config senza cap autoCompact 200k (quella resta la config degli agenti su main). NON fare merge su main.
+
 ### 27 Ago 2026 — Giro di prova SCOUT upgrade + bug IG sistemato
 - Giro completo dal vivo (mix hashtag 50/50 travel + voli/rimborso, deciso da Valerio). Discovery: 29 nuovi in ~76s. Ho pubblicato la versione webhook della discovery e l'enricher TikTok (le modifiche erano in bozza non pubblicata).
 - Enricher TikTok GPT-5.6 Terra: PERFETTO. 6 nuovi Pronto (creator italiani veri: italia.io.ti.amo, focus_21052, italyyoudontexpect, alessandra_worldtrip, jepexperiences, lorecostantini_). Scarti intelligenti: "voyager sans avion" (pubblico che non vola), "I plan trips" (agenzia), pagina territoriale, stranieri.
