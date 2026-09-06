@@ -7,7 +7,8 @@ Questo documento e' la fonte UNICA per l'identita' visiva di Rivolio. Tutti i ru
 - **URL pubblico:** `https://rivolio.it/marchio.png` (usalo come immagine di RIFERIMENTO per GPT Image 2).
 - **Cos'e':** una lente d'ingrandimento verde scuro con dentro un aereo che decolla e barre di crescita. Significa "lo scanner dei rimborsi". Sfondo trasparente.
 - **Regola d'oro:** il logo NON si ridisegna a mano ne' si lascia "reinventare" all'AI (verrebbe storpiato). Sulle immagini finali si INCOLLA il file vero `marchio.png`. Il riferimento a GPT Image 2 serve solo a orientare lo stile, non a produrre il logo.
-- **Posizione sulle slide:** piccolo (circa 12-15% della larghezza), in un angolo (in basso a sinistra o in alto a sinistra), con margine. Se il fondo dietro e' scuro, mettilo su una piccola pastiglia chiara arrotondata cosi' il verde si legge.
+- **Posizione sulle slide:** piccolo (circa 12-15% della larghezza), in basso a sinistra, con margine ~5%.
+- **MAI un box/quadrato/pastiglia dietro il logo** (regola di Valerio 06/09: un riquadro con sfondo sopra un altro sfondo e' brutto). Il marchio sta TRASPARENTE su qualsiasi sfondo. Per staccarlo sia dal chiaro che dallo scuro si usa un ALONE BIANCO MORBIDO (bagliore sfumato), non un riquadro: alfa del logo dilatato + sfumato come maschera di un layer bianco, sotto al logo. Zero quadrati.
 
 ## Colori (HEX esatti)
 Palette **verde + giallo**, pulita e calda.

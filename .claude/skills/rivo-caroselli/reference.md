@@ -11,7 +11,7 @@ Dalle ricerche sulla crescita organica: i caroselli-guida generano SALVATAGGI e 
 - **Copertina (slide 1):** e' l'80% del lavoro. Se non ferma il pollice, il resto non viene letto. Formule che funzionano: promessa numerata ("4 cose da fare se..."), tensione ("Nessuno te lo dice, ma..."), errore da evitare ("Se ti cancellano il volo, NON fare questo"). 5-9 parole, testo grande, contrasto forte.
 - **Slide di contenuto:** una idea per slide. Titolo corto in alto, 1-2 righe sotto. Nei caroselli-guida numera i passi (1, 2, 3): danno senso di completezza e invitano a scorrere. Ogni slide deve reggersi da sola.
 - **Slide finale (CTA):** un solo invito, soft. Due tipi: salvataggio ("Salva questo post per quando ti servira'") o azione Rivolio ("Controlla il tuo volo, ci vogliono 30 secondi"). Mai due CTA insieme, mai aggressivo.
-- **Lunghezza:** 5-8 slide. Sotto 5 e' povero, sopra 8 si perde. Il punto dolce e' 6-7.
+- **Lunghezza:** 4-8 slide (regola Valerio 06/09). Sotto 4 e' povero, sopra 8 si perde. Il punto dolce e' 5-7.
 - **Ritmo:** ogni slide fa venire voglia di vedere la prossima. Un mini cliffhanger ("...ma c'e' un errore che rovina tutto, slide 4") tiene lo scorrimento.
 
 ## PARTE 3: la griglia di brand Rivolio (direzione visiva)
